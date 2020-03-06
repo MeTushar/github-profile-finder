@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #667db6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Open Sans', sans-serif;
+}
+a {
+    cursor: pointer;
+}
+.hide {
+    display: none !important;
+}
+
+.container {
+}
+
+.container .search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container .search-container .form-group{
+    display: flex;
+    flex-direction: column;
+}
+
+.search-input {
+    border: none;
+    padding: 15px;
+    width: 300px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #434343;
+}
+
+.search-btn {
+    padding: 15px;
+    width: 300px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #ff9966;
+    color: #fff;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.user-container {
+    display: flex;    
+    margin: 20px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.user-container .user-image {
+    width: 300px;
+}
+
+.user-container .user-image img {
+    max-width: 100%;
+}
+
+.user-profile {
+    width: 30%;
+}
+
+.main-container {
+    width: 70%;
+}
+
+nav {
+    font-weight: 600;
+    border-bottom: 1px solid #ccc;
+}
+
+nav a {
+    display: inline-block;
+    padding: 20px 15px;
+}
+
+nav a.active {
+    border-bottom: 4px solid #ff9966;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.repositories-container {
+    padding: 10px 0;
+}
+
+.repo {
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}

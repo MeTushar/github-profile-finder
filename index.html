@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Profile Finder</title>
+    <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="search-container" id="search-container">
+            <div class="form-group">
+                <input type="text" placeholder="Search User" class="search-input" id="search-input" />
+                <a class="search-btn" id="search-btn">Search User</a>
+            </div>
+        </div>
+
+        <div class="user-container hide" id="user-container">
+            <div class="user-profile" id="user-profile">
+
+            </div>
+            <div class="main-container" id="main-container">
+                <nav>
+                    <a class="active" id="overview">Overview</a>
+                    <a id="repositories">Repositories</a>
+                    <a id="git">Git Basics</a>
+                </nav>
+                <div class="tabs-container" id="tabs-container">
+                    <div class="overview-container" id="overview-container"></div>
+                    <div class="repositories-container hide" id="repositories-container"></div>
+                    <div class="git-basics-container hide" id="git-container"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="src/app.js"></script>
+</body>
+</html>
